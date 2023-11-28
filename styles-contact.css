@@ -1,0 +1,139 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/Background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.center {
+    width: 40%;
+	min-width: 300px;
+	padding: 2%;
+    margin: 100px auto;
+ 	background: rgba(251, 254, 255, 0.75); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+}
+   
+#logo {
+	width: 80%;
+	min-width: 300px;
+	padding: 2%;
+    margin-bottom: 16px;
+	text-align: center;
+}
+
+h1 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-size: 2em;
+	font-weight: 600;
+	font-family: "mixta-sharp-alt", serif;
+	margin: 15px auto 10px auto
+}
+
+h2 {
+	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	 font-family: "mixta-sharp", serif;
+	 font-weight: 700;
+	 font-style: normal;
+}
+
+p {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: "mixta-sharp-alt", serif;
+	font-weight: 600;
+	font-style: normal;
+	margin: 15px auto 10px auto
+}
+nav{
+	font-family: "mixta-sharp-alt", serif;
+	font-weight: 600;
+	text-align: center;
+	font-style: normal;
+	width: 400px; 
+	margin-top: 5em;
+	margin: 0 auto
+
+}
+nav li{
+	display:inline;
+	text-align: center;
+
+}
+nav a{
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+}
+a{
+	color: rgb(0, 0, 0)000;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+}
+
+a:hover{
+	color:rgb(0, 0, 0);
+	background: rgb(192, 255, 213);
+}
